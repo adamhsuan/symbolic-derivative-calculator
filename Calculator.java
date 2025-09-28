@@ -8,9 +8,9 @@ public class Calculator
     A slideshow outlining how the calculator works at a high level is here:
     https://docs.google.com/presentation/d/14XaiFJIbZxPJq2-HeSK_Dl1nfehQIuyWaqItdpnzXF8/edit?usp=sharing
     
-    Calculator class: this is the main execution pipline of the program.
+    Calculator class: this is the backbone of the program
         - Deals with the front end: takes user expression and outputs final derivitive
-        - obtains final derivitive from 
+        - obtains final simplified derivitive using getDerivative and simplifyExpression
         - methods: convertStringToExpression and convertExpressionToString
     */
     public static ArrayList<String> output = new ArrayList<String>();
@@ -471,4 +471,5 @@ public class Calculator
     {
         System.out.println(convertExpressionToString(expression));
     }
+
 }
