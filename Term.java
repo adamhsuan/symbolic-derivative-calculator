@@ -445,7 +445,7 @@ public class Term extends Expression {
         //combineLikeExponents();
     }
     
-    //this is for testing and should be removed after program finalization
+    //this is for testing
     public void printTerm()
     {
         for (Expression factor : factors)
@@ -557,5 +557,6 @@ public class Term extends Expression {
         }
     }
     
+
 
 }
