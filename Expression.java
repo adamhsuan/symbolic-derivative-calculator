@@ -833,7 +833,7 @@ public class Expression {
     }
 
         
-    //this is for testing the program and should be removed after finalization
+    //this is for testing the program
     public void printExpressionFull()
     {
         if (this instanceof Term)
@@ -873,3 +873,4 @@ public class Expression {
     }
     
 }
+
